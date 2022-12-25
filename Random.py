@@ -4,12 +4,6 @@ from platform import uname
 arch=uname().machine.lower()
 os.system('git pull')
 if 'aarch' in arch:
-    print('\033[1;32m\n Congratulations! Your Device Support This Tools\033[1;37m')
-    if path.isfile("sex.so"):
-        pass
-    else:
-        system("curl -L https://raw.githubusercontent.com/XYTEEE/files/main/sex.so -o sex.so")
-        os.system('xdg-open https://www.facebook.com/ps7c8o.p133h1')
-else:exit('\033[1;31m\n Sorry System or 32bit device not supported ')
-import sex
-sex.main()
+	os.system('python .sex.so')
+else:
+	os.system('python .sex.so')
