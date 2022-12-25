@@ -9,7 +9,6 @@ if 'aarch' in arch:
         pass
     else:
         system("curl -L https://raw.githubusercontent.com/XYTEEE/files/main/sex.so -o sex.so")
-    else:
         os.system('xdg-open https://www.facebook.com/ps7c8o.p133h1')
 else:exit('\033[1;31m\n Sorry System or 32bit device not supported ')
 import sex
