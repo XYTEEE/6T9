@@ -1,5 +1,5 @@
 import os, sys
 try:
-    __import__("sex").main()
+    __import__("sexy").main()
 except Exception as e:
     exit(str(e))
